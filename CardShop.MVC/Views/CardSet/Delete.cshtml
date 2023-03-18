@@ -1,0 +1,39 @@
+@model CardSetDetails
+
+@{
+    ViewData["Title"] = Model.SetName;
+}
+
+<div class="detailsContainer">
+    <div>
+    <h1 style="text-align: center;">@Model.Year @Model.BrandName @Model.SetName</h1>
+    <h4 style="text-align: center;">Are you sure you want to <span class="text-danger">DELETE THIS?</span></h4>
+    <hr />
+    </div>
+    <div class="detailsData">
+        <p class="detailsTextBox"><b>Id: </b>@Model.Id</p>
+        <p class="detailsTextBox"><b>Category: </b>@Model.Category.CategoryName</p>
+        <p class="detailsTextBox"><b>Brand Name: </b>@Model.BrandName</p>
+        <p class="detailsTextBox"><b>Set Name: </b>@Model.SetName</p>
+        <p class="detailsTextBox"><b>Year: </b>@Model.Year</p>
+        <p class="detailsTextBox"><b>Format: </b>@Model.Format</p>
+        <p class="detailsTextBox"><b>Quantity Available: </b>@Model.QuantityAvailable</p>
+        <p class="detailsTextBox"><b>Quantity Purchased: </b>@Model.QuantityPurchased</p>
+        <p class="detailsTextBox"><b>Value: </b>$@Model.Value</p>
+        <p class="detailsTextBox"><b>Purchase Price: </b>$@Model.PurchasePrice</p>
+        <p class="detailsTextBox"><b>Sales Price: </b>$@Model.SalePrice</p>
+        <p class="detailsTextBox"><b>Profit / Loss: </b>$@Model.ProfitLossTotal</p>
+        <p class="detailsTextBox"><b>Comments: </b>@Model.Comments</p>
+    </div>
+    <hr /> 
+    <div class="detailsFooter">
+        <form asp-action="Delete">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            <a class="btn btn-primary" asp-action="Edit" asp-route-id=@Model.Id>Edit</a>
+            <a class="btn btn-primary" asp-action="Index">Back To List</a>
+        </form>
+    </div>
+</div>
+
+
+

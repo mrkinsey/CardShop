@@ -1,0 +1,15 @@
+C:\ElevenFiftyProjects\CardShop\CardShop.Models\bin\Debug\net7.0\CardShop.Models.deps.json
+C:\ElevenFiftyProjects\CardShop\CardShop.Models\bin\Debug\net7.0\CardShop.Models.dll
+C:\ElevenFiftyProjects\CardShop\CardShop.Models\bin\Debug\net7.0\CardShop.Models.pdb
+C:\ElevenFiftyProjects\CardShop\CardShop.Models\obj\Debug\net7.0\CardShop.Models.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\CardShop\CardShop.Models\obj\Debug\net7.0\CardShop.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyProjects\CardShop\CardShop.Models\obj\Debug\net7.0\CardShop.Models.AssemblyInfoInputs.cache
+C:\ElevenFiftyProjects\CardShop\CardShop.Models\obj\Debug\net7.0\CardShop.Models.AssemblyInfo.cs
+C:\ElevenFiftyProjects\CardShop\CardShop.Models\obj\Debug\net7.0\CardShop.Models.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\CardShop\CardShop.Models\obj\Debug\net7.0\CardShop.Models.dll
+C:\ElevenFiftyProjects\CardShop\CardShop.Models\obj\Debug\net7.0\refint\CardShop.Models.dll
+C:\ElevenFiftyProjects\CardShop\CardShop.Models\obj\Debug\net7.0\CardShop.Models.pdb
+C:\ElevenFiftyProjects\CardShop\CardShop.Models\obj\Debug\net7.0\ref\CardShop.Models.dll
+C:\ElevenFiftyProjects\CardShop\CardShop.Models\bin\Debug\net7.0\CardShop.Data.dll
+C:\ElevenFiftyProjects\CardShop\CardShop.Models\bin\Debug\net7.0\CardShop.Data.pdb
+C:\ElevenFiftyProjects\CardShop\CardShop.Models\obj\Debug\net7.0\CardShop.Models.csproj.CopyComplete

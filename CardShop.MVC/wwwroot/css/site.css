@@ -1,0 +1,65 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #65bbe0;
+}
+
+.card {
+  width: 20rem;
+  background-color: #e5e5e5;
+}
+
+.card img {
+  max-width: 15rem;
+}
+
+.detailsContainer {
+  margin: auto;
+  width: 50%;
+  border: 2px solid #e5e5e5;
+  border-radius: .5em;
+}
+
+.detailsData {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.detailsFooter {
+  margin: auto;
+  text-align: center;
+}
+
+.detailsTextBox {
+  background-color: #e5e5e5;
+  padding-left: 1em;
+  border-radius: .3em;
+}
+
+.detailsFooter a {
+  border: 2px solid #e5e5e5;
+  border-radius: .3em;
+  top: 50%;
+  color: black;
+  min-height: 30px;
+  min-width: 120px;
+  background-color: #e5e5e5;
+}

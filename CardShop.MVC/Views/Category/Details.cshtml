@@ -1,0 +1,24 @@
+@model CategoryDetails
+
+@{
+    ViewData["Title"] = Model.CategoryName;
+}
+
+<div class="detailsContainer">
+    <div>
+    <h1 style="text-align: center;">@Model.CategoryName</h1>
+    <h4 style="text-align: center;">Category Details</h4>
+    <hr />
+    </div>
+    <div class="detailsData">
+        <p class="detailsTextBox"><b>Id: </b>@Model.Id</p>
+        <p class="detailsTextBox"><b>Category Name: </b>@Model.CategoryName</p>
+    </div>
+    <hr /> 
+    <div class="detailsFooter">
+        <p>
+        <a class="btn btn-primary" asp-action="Edit" asp-route-id=@Model.Id>Edit</a>  
+        <a class="btn btn-primary" asp-action="Index">Back To List</a>
+        </p>
+    </div>
+</div>
